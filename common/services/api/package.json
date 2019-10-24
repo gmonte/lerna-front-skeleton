@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@lerna-front-skeleton/s-api",
+  "version": "0.0.0",
+  "main": "src/api.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@lerna-front-skeleton/s-http": "^0.0.0"
+  },
+  "scripts": {
+    "lint": "eslint --cache ./src --ext .js"
+  }
+}
